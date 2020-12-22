@@ -1,0 +1,131 @@
+html,body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body{
+      background: #3d3c3b;
+    color: #fff;
+}
+.container{
+  width: 85%;
+  height: 100%;
+  padding: 1rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.form-group{
+  width: 100%;
+}
+.form-group{
+  padding: 1rem;
+  box-sizing: border-box;
+}
+input{
+
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+#myForm{
+
+  background:#454545;
+  color: #fff;
+      padding: 2rem;
+    border-radius: 10px;
+}
+#sub{
+
+      width: 150px;
+    /* height: 2.5rem; */
+    background: #24bdc4;
+    border: none;
+    box-shadow: -1px 0px 10px 2px #0d0b0b;
+    color: #fff;
+    border-radius: 10px;
+    padding: 1.2rem;
+    transition: .3s;
+}
+#sub:hover{
+  cursor: pointer;
+  opacity: .8;
+}
+#bookmarksResults .item{
+
+  background: #ff5a26;
+    padding: 1rem;
+    margin: 1px;
+    /* box-shadow: 0px 1px 6px #bebebe; */
+    /* margin-top: 2rem; */
+    -webkit-appearance: button;
+    /* border: navajowhite; */
+    outline: none;
+    color: #fff;
+    text-decoration: none;
+    /* border-radius: 28px; */
+    padding: 1rem;
+}
+#bookmarksResults{
+box-sizing: border-box;
+    display: flex;
+     flex-direction: column;
+    /* border: 1px solid; */
+    /* padding: 1rem; */
+    margin-top: 1rem;
+    /* background: white; */
+    justify-content: center;
+    flex-wrap: wrap;
+        /* padding-top: 0; */
+    /* padding: 1rem;*/
+
+
+
+}
+.results-wrapper::before{
+
+  display: block;
+  content: "";
+  width: 200px;
+  height: 1px;
+  background-color: #fff;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  margin: 1rem auto;
+
+}
+
+
+
+h2{
+  flex: 100%;
+  color: #0f0f0;
+  color: #6d6d6d;
+  box-shadow: navajowhite;
+  box-shadow: none;
+  -webkit-appearance: none;
+  color: #817e7e !important;
+  text-transform: uppercase !important;
+  margin-bottom: 2rem;
+}
+.well{
+  background: #232323;
+  border: none;
+}
+
+
+@media only screen and (min-width: 900px){
+
+  .container{
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 600px){
+
+  .container{
+    width: 90%;
+
+  }
+}

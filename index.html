@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>BookMark websites</title>
+      <!-- Bootstrap core CSS -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+   </head>
+   <body onload="fetchBookmarks()">
+      <div class="container">
+        <h3>BOOKMARK WEBSITES</h3>
+
+         <form id="myForm">
+            <div class="form-group">
+
+               <input type="text" class="form-control" id="siteName" placeholder="Website Name">
+            </div>
+            <div class="form-group">
+
+               <input type="text" class="form-control" id="siteUrl" placeholder="Website URL">
+            </div>
+            <button type="submit" id="sub" class="btn btn-primary">Submit</button>
+         </form>
+         <div id="bookmarksResults"></div>
+         <footer class="footer">
+            <p>&copy; 2017 Bookmark APP : Ajaz Miah.</p>
+         </footer>
+      </div>
+      <!-- /container -->
+      <script
+         src="https://code.jquery.com/jquery-3.1.1.js"
+         integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+         crossorigin="anonymous"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/main.js"></script>
+      <script src="js/menu.js"></script>
+   </body>
+</html>
